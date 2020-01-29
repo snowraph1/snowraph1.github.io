@@ -5,17 +5,28 @@
   <title>Mon site</title>
   <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
   <body>
-    <div class="range">
+    <div style="padding-top: 80%; padding-bottom: 1%;">
+      <div class="range texteMillieu blanc grosTitre police roundCorner1">Projets en cours</div>
+    </div>
+    <div class="range degradeBleu roundCorner2">
       <div class="colonne">
           <div class="video">
               <iframe
                 src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder=0 allowfullscreen>
               </iframe>
             </div>
-        <div class="titre">test</div>
+        <div class="titre texteMillieu police">Skyrace</div>
+        <p class="police" style="padding-left: 10%;">
+          - Bon jeu 
+          <br />
+          - super bon jeu super suepr siundfa 
+          <br />
+          - mega BON JEU
+        </p>
       </div>
       <div class="colonne">
         <div class="video">
@@ -23,12 +34,44 @@
             src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder=0 allowfullscreen>
           </iframe>
         </div>
-        <div class="titre">test</div>
+        <div class="titre texteMillieu police">Golf</div>
+
+        <p class="police" style="padding-left: 10%;">
+          - Bon jeu 
+          <br />
+          - super bon jeu super suepr siundfa 
+          <br />
+          - mega BON JEU
+        </p>
       </div>
     </div>
 
-    <div class="range">
-      test
+    <div style="padding-top: 1%; padding-bottom: 1%;" data-aos="slide-up">
+      <div class="range texteMillieu blanc grosTitre police roundCorner1">Anciens projets</div>
     </div>
+
+    <div class="range degradeRouge roundCorner2" data-aos="slide-up">
+      <div class="petiteColonne">
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder=0 allowfullscreen>
+          </iframe>
+        </div>
+        <div class="titre texteMillieu police">Golf</div>
+
+        <p class="police" style="padding-left: 10%;">
+          - Bon jeu 
+          <br />
+          - super bon jeu super suepr siundfa 
+          <br />
+          - mega BON JEU
+        </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+       AOS.init();
+    </script>
   </body>
 </html>

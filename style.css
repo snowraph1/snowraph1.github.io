@@ -1,8 +1,11 @@
 body {
+  /*
     min-height: 98.3vh;
-    background: url(ciel.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(Endless-Constellation.svg);
+    background by SVGBackgrounds.com
+  */
+
+  background-color: lightgray;
 }
 
 .range{
@@ -11,11 +14,32 @@ body {
   justify-content: center;
 }
 
+.degradeBleu{
+  background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.degradeRouge{
+  background-color: #ff5252;
+  background-image: linear-gradient(141deg, #ff8282 0%, #ff5252 51%, #ff0000 75%);
+}
+
+.blanc{
+  background-color: white;
+}
+
 .colonne{
   display: flex;
   flex-direction: column;
   padding: 40px;
   width: 450px;
+}
+
+.petiteColonne{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  width: 200px;
 }
 
 .video{
@@ -35,25 +59,43 @@ iframe{
 }
 
 .titre{
-  text-align: center;
-  font-family: police1;
   font-size: 40px;
   padding-top: 10px;
 }
 
+.texteMillieu{
+  text-align: center;
+}
+
 .grosTitre{
   text-align: center;
-  font-family: police1;
-  font-size: 70px;
+  font-size: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .info{
   text-align: center;
-  font-family: police1;
   font-size: 20px;
   padding-top: 10px;
+}
+
+.police{
+  font-family: police1;
+}
+
+.shadow {
+  -webkit-box-shadow: inset 0 8px 4px -4px black;
+  -moz-box-shadow: inset 0 8px 4px -4px black;
+  box-shadow: inset 0 8px 4px -4px black;
+}
+
+.roundCorner1 {
+  border-radius: 15px 50px 30px;
+}
+
+.roundCorner2{
+  border-radius: 15px;
 }
 
 @font-face{
