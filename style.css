@@ -1,8 +1,9 @@
-.bodyBackground {
+body {
   background-color: #292929;
   background-image: url(Liquid-Cheese.svg);
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .range{
