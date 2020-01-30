@@ -13,6 +13,14 @@ body {
   max-width: 1200px;
 }
 
+.petiteRange{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 500px;
+  padding-top: 30px;
+}
+
 .sColonne{
   display: flex;
   flex-direction: column;
@@ -26,6 +34,14 @@ body {
   width: 380px;
   padding-bottom: 60px;
   padding-top: 40px;
+}
+
+.sTresPetiteColonne{
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 .video{
@@ -79,6 +95,13 @@ iframe{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.petiteImageCentre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .grosTitre{
