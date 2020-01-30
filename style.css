@@ -61,6 +61,10 @@ iframe{
   padding-top: 20px;
 }
 
+.sLien:hover{
+  color: #ff5252;
+}
+
 .titre{
   font-size: 40px;
   padding-top: 10px;
@@ -151,4 +155,6 @@ iframe{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); /* IE 9 */
   -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+  animation-duration: 6s;
+  animation-delay: 0.3s;
 }
