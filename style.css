@@ -39,9 +39,11 @@ body {
 .sTresPetiteColonne{
   display: flex;
   flex-direction: column;
-  width: 130px;
+  width: 140px;
   padding-bottom: 10px;
   padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .video{
@@ -178,6 +180,30 @@ iframe{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); /* IE 9 */
   -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
-  animation-duration: 6s;
-  animation-delay: 0.3s;
 }
+
+/* Parent Container */
+.content_img{
+
+ }
+ 
+ /* Child Text Container */
+ .content_img div{
+  color: white;
+  font-family: police1;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ /* Hover on Parent Container */
+ .content_img:hover{
+  cursor: pointer;
+ }
+ 
+ .content_img:hover div{
+  width: 150px;
+  visibility: visible;
+  opacity: 0.7; 
+ }
